@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+}
+
+.contPagina{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.7fr 1fr 1fr 1fr 1fr 1fr 1fr;/*grid-template-rows: repeat(6, 1fr)*/
+    grid-template-areas: 
+    "menu menu menu menu menu"
+    "contenido contenido contenido contenido contenido"
+    "contenido contenido contenido contenido contenido"
+    "contenido contenido contenido contenido contenido"
+    "contenido contenido contenido contenido contenido"
+    "contenido contenido contenido contenido contenido"
+    "contenido contenido contenido contenido contenido"
+    ;
+    /*width: 1500px;
+    height: 1000px;*/
+}
+
+.menu{
+    grid-area: menu;
+    background: white;
+}
+
+.contenido{
+    grid-area: contenido;
+    background-color: plum;
+    background-image: url(https://img.freepik.com/vector-premium/dulces-tortas-bollos-patrones-fisuras_101660-680.jpg?w=2000);
+    background-size: cover;
+    /*background-image: url("https://us.123rf.com/450wm/karakedi35/karakedi352003/karakedi35200300666/141756663-macarrones-dulces-y-coloridos-o-macarr%C3%B3n-sobre-fondo-blanco-desierto-.jpg?ver=6");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;*/
+
+}
+
+.foto{
+    width: 500px;
+    height: 400px;
+    margin-left: 450px;
+    padding: 50px;
+}
+
+.titulo{
+    font-size: 40px;
+    background-color: paleturquoise;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px aquamarine, 0 0 5px aqua;
+    border-bottom: 3px gold solid;
+    border-top: 3px gold solid;
+}
+
+.logo{
+    justify-content: center;
+    margin-left: 43%;
+    width: 220px;
+    height: 150px;
+    text-align: center;
+    align-items: center;
+}
+
+.listado{
+    font-family: Arial, Helvetica, sans-serif;
+    /*background-image: url(https://previews.123rf.com/images/milkos/milkos1702/milkos170201202/72708672-fondo-para-hornear-ingredientes-de-cocina-para-masa-y-reposter%C3%ADa-y-tablero-de-pizza-de-madera-en-mad.jpg);
+    background-size: cover;*/
+    
+}
+
+.textoManzana{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.pasos{
+    text-align: center;
+    background-color: palevioletred;
+    font-size: 22px;
+    color: white;
+    text-shadow: 2px 2px 5px gold;
+    
+}
+
+.ingrediente{
+    text-align: center;
+    background-color: palevioletred;
+    font-size: 22px;
+    color: white;
+    text-shadow: 2px 2px 5px gold
+}
+
+.list{
+    text-align: center;
+    list-style: none;
+    font-size: 18px;
+    padding: 30px;
+}
+
+.text{
+    padding: 30px;
+    list-style: none;
+}
+
+.listaPasos{
+    background-color: white;
+}
+
+.num{
+    border-radius: 80%;
+    background-color: lightblue;
+    margin-right: 1255px;
+    display: flex;
+}
+
+.textPasos{
+    background-color: white;
+    border: 2px lightblue solid;
+}
+
+.textIngr{
+    text-align: center;
+    margin-bottom: 10px;
+    
+}

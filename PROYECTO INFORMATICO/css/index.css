@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    background-color: darksalmon;
+    background-image: url(https://i.pinimg.com/564x/a5/5e/dd/a55eddbb5f844ac3fe375eb29981ac81.jpg);
+}
+
+
+.contenedor{
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;/*grid-template-rows: repeat(6, 1fr)*/
+    grid-template-areas: 
+    "img inf inf inf inf"
+    "img inf inf inf inf"
+    "img inf inf inf inf"
+    "img inf inf inf inf"
+    "img inf inf inf inf"
+    ;
+
+}
+
+.contenedor2{
+    grid-area: inf;
+    padding: 10px;
+    margin-top: 100px;
+    /*background-image: url(https://img.freepik.com/vector-gratis/vector-patrones-fisuras-fondo-lindos-lunares-pastel_53876-116801.jpg?w=2000);
+    margin-bottom: 0%;
+    margin-left: 10px;*/
+}
+
+.texto{
+    margin-top: 10px;
+    text-align: center;
+    background-color: palevioletred;
+
+}
+
+.titulo{
+    text-align: center;
+    color: black;
+    
+}
+
+.boton{
+    text-align: center;
+    /*margin-left: 500px;
+    margin-right: 500px;*/
+    background-color: paleturquoise;
+    border-radius: 100px;
+    margin-top: 10px;
+    
+}
+
+.txtbtn{
+    align-items: center;
+    text-decoration: none;
+
+}
+
+.listxt{
+    list-style: none;
+}
+
+/*
+.cuerpo{
+    background-image: url("https://media.istockphoto.com/photos/various-decorated-doughnuts-in-motion-falling-on-pink-background-picture-id688987176?k=20&m=688987176&s=612x612&w=0&h=qVS02f7GEP3UMPhK6yU__xy47U-FkeOG4Xst2DxBqcw=");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+    margin-top: 400px;
+}
+
+img{
+    grid-area: img;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+*/
+.don{
+    grid-area: img;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 0px;
+    padding: 10px;
+}
+

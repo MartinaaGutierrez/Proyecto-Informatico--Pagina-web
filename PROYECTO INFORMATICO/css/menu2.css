@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+}
+
+.contPagina{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /*3 columnas*/
+    grid-template-rows: 0.7fr 1fr 1fr 1fr 1fr; /*5 filas*/
+    grid-template-areas: 
+    "menu menu menu"
+    "contenido contenido contenido"
+    "contenido contenido contenido"
+    "contenido contenido contenido"
+    "contenido contenido contenido"
+    ;
+    /*width: 1500px;
+    height: 1000px;*/
+}
+
+.menu{
+    grid-area: menu;
+    background: white;
+    background-image: linear-gradient(white, white);
+}
+
+.menuLateral{
+    grid-area: lateral;
+    background-color: paleturquoise;
+    list-style: none;
+}
+
+.contenido{
+    grid-area: contenido;
+    background-color: white;
+    /*background-image: url("https://us.123rf.com/450wm/karakedi35/karakedi352003/karakedi35200300666/141756663-macarrones-dulces-y-coloridos-o-macarr%C3%B3n-sobre-fondo-blanco-desierto-.jpg?ver=6");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;*/
+
+}
+
+.fila1{
+    background-image: linear-gradient(white, palevioletred);
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fila2{
+    background-image: linear-gradient(palevioletred, palegoldenrod);
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fila3{
+    background-image: linear-gradient( palegoldenrod, turquoise);
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fila4{
+    background-image: linear-gradient(turquoise, palegreen);
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box{
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+.foto{
+    height: 190px;
+    width: 285px;
+    border-radius: 15%;
+}
+
+.titulo{
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px white;
+}
+
+.logo{
+    justify-content: center;
+    margin-left: 43%;
+    width: 220px;
+    height: 150px;
+    text-align: center;
+    align-items: center;
+}
+
+.a:hover{
+    border-radius: 50%;
+    background-size: cover;
+    transform: scale(1.1);
+}
+
+.a{
+    transition:
+    border-radius 3s ease
+    ;
+    transition:
+    3s ease;
+}
+
+.b:hover{
+    border-radius: 50%;
+    background-size: cover;
+    transform: scale(1.1);
+}
+
+
+.b{
+    transition:
+    border-radius 2s ease
+    ;
+    transition:
+    2s ease;
+}
+
+.c:hover{
+    border-radius: 50%;
+    background-size: cover;
+    transform: scale(1.1);
+}
+
+
+.c{
+    transition:
+    border-radius 2s ease
+    ;
+    transition:
+    2s ease;
+}
+
+.d:hover{
+    border-radius: 50%;
+    background-size: cover;
+    transform: scale(1.1);
+}
+
+
+.d{
+    transition:
+    border-radius 2s ease
+    ;
+    transition:
+    2s ease;
+}
+
+.e:hover{
+    border-radius: 50%;
+    background-size: cover;
+    transform: scale(1.1);
+}
+
+.e{
+    transition:
+    border-radius 2s ease
+    ;
+    transition:
+    2s ease;
+}
+
+.f:hover{
+    border-radius: 50%;
+    background-size: cover;
+    transform: scale(1.1);
+}
+
+
+.f{
+    transition:
+    border-radius 2s ease
+    ;
+    transition:
+    2s ease;
+}
+
+.g:hover{
+    border-radius: 50%;
+    background-size: cover;
+    transform: scale(1.1);
+}
+
+
+.g{
+    transition:
+    border-radius 2s ease
+    ;
+    transition:
+    2s ease;
+}
+
+.h:hover{
+    border-radius: 50%;
+    background-size: cover;
+    transform: scale(1.1);
+}
+
+.h{
+    transition:
+    border-radius 2s ease
+    ;
+    transition:
+    2s ease;
+}
+
+.i:hover{
+    border-radius: 50%;
+    background-size: cover;
+    transform: scale(1.1);
+}
+
+
+.i{
+    transition:
+    border-radius 2s ease
+    ;
+    transition:
+    2s ease;
+}
+
+.j:hover{
+    border-radius: 50%;
+    background-size: cover;
+    transform: scale(1.1);
+}
+
+.j{
+    transition:
+    border-radius 2s ease
+    ;
+    transition:
+    2s ease;
+}
+.k:hover{
+    border-radius: 50%;
+    background-size: cover;
+    transform: scale(1.1);
+}
+
+.k{
+    transition:
+    border-radius 2s ease
+    ;
+    transition:
+    2s ease;
+}
+.l:hover{
+    border-radius: 50%;
+    background-size: cover;
+    transform: scale(1.1);
+}
+
+.l{
+    transition:
+    border-radius 2s ease
+    ;
+    transition:
+    2s ease;
+}
